@@ -1,5 +1,7 @@
+#conda create -n my_env python=3.7
 #conda activate my_env
 #cd Downloads/download
+#python
 #######################################################
 import os
 from PIL import Image
