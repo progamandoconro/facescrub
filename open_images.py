@@ -14,4 +14,5 @@ dir_fotos = [x[:-1] for x in dir_fotos]
 
 list=[]
 for i in dir_fotos:
-    list[i] = str.split(i,"/")[-1]
+    new = str.split(i,"/")[-1]
+    list.append(new)
